@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_content_links",
+  "info": {
+    "displayName": "Link",
+    "icon": "link"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "path": {
+      "type": "string",
+      "required": true
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "Anchor",
+        "Internal",
+        "External"
+      ],
+      "required": true
+    }
+  }
+}

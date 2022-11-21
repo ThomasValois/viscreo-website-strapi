@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_content_simple_bodies",
+  "info": {
+    "displayName": "Simple - Body",
+    "icon": "align-center"
+  },
+  "options": {},
+  "attributes": {
+    "value": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

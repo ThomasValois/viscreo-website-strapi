@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_content_media_titles",
+  "info": {
+    "displayName": "Media + Title",
+    "icon": "image"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "media": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "path": {
+      "type": "string"
+    }
+  }
+}

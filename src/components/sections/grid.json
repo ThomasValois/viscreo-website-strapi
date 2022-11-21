@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_sections_grids",
+  "info": {
+    "displayName": "Grid",
+    "icon": "th-large",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "customID": {
+      "type": "string"
+    },
+    "reverse": {
+      "type": "boolean"
+    },
+    "media": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "content": {
+      "type": "component",
+      "repeatable": true,
+      "component": "component-data.grid-item",
+      "required": true,
+      "max": 4,
+      "min": 2
+    }
+  }
+}

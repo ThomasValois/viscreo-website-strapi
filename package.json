@@ -19,6 +19,7 @@
     "@strapi/strapi": "4.5.1",
     "better-sqlite3": "^7.6.2",
     "pg": "8.7.3",
+    "strapi-plugin-import-export-entries": "^1.18.0",
     "strapi-plugin-placeholder": "^4.3.6",
     "strapi-plugin-populate-deep": "^1.1.2",
     "strapi-plugin-publisher": "^1.1.4",

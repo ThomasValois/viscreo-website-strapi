@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_sections_slides",
+  "info": {
+    "displayName": "Slide",
+    "icon": "play"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": false
+    },
+    "customID": {
+      "type": "string"
+    },
+    "content": {
+      "type": "component",
+      "repeatable": true,
+      "component": "component-data.slide-item",
+      "required": true,
+      "max": 10,
+      "min": 3
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_sections_cards",
+  "info": {
+    "displayName": "Card",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "richtext",
+      "required": true
+    },
+    "customID": {
+      "type": "string"
+    },
+    "reverse": {
+      "type": "boolean"
+    },
+    "media": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "content.link"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_content_tile_value_l_s",
+  "info": {
+    "displayName": "Header (L)",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

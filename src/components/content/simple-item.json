@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_content_simple_items",
+  "info": {
+    "displayName": "Simple - Item",
+    "icon": "list-ul"
+  },
+  "options": {},
+  "attributes": {
+    "value": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

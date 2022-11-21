@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_other_grid_items",
+  "info": {
+    "displayName": "Grid Item",
+    "icon": "square",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "titlepath": {
+      "type": "boolean"
+    },
+    "description": {
+      "type": "richtext",
+      "required": true
+    },
+    "pathtitle": {
+      "type": "string"
+    },
+    "path": {
+      "type": "string"
+    },
+    "pathtype": {
+      "type": "enumeration",
+      "enum": [
+        "Anchor",
+        "Internal",
+        "External"
+      ]
+    }
+  }
+}
