@@ -1,23 +1,16 @@
 {
   "kind": "singleType",
-  "collectionName": "homepages",
+  "collectionName": "sustainabilities",
   "info": {
-    "singularName": "homepage",
-    "pluralName": "homepages",
-    "displayName": "Homepage",
-    "description": ""
+    "singularName": "sustainability",
+    "pluralName": "sustainabilities",
+    "displayName": "Sustainability"
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "landing": {
-      "type": "component",
-      "repeatable": false,
-      "component": "content.tile-value-l",
-      "required": true
-    },
     "body": {
       "type": "dynamiczone",
       "components": [
