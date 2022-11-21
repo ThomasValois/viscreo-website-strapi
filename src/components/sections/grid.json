@@ -19,7 +19,7 @@
     },
     "media": {
       "type": "media",
-      "multiple": true,
+      "multiple": false,
       "required": true,
       "allowedTypes": [
         "images"
@@ -32,6 +32,10 @@
       "required": true,
       "max": 4,
       "min": 2
+    },
+    "label": {
+      "type": "string",
+      "required": true
     }
   }
 }

@@ -4,7 +4,8 @@
   "info": {
     "singularName": "contact",
     "pluralName": "contacts",
-    "displayName": "Contact"
+    "displayName": "Contact",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -51,6 +52,12 @@
       "type": "component",
       "repeatable": false,
       "component": "content.title-value-s",
+      "required": true
+    },
+    "landing": {
+      "type": "component",
+      "repeatable": false,
+      "component": "content.tile-value-l",
       "required": true
     }
   }
