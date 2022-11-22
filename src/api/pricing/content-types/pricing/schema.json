@@ -14,11 +14,9 @@
     "body": {
       "type": "dynamiczone",
       "components": [
-        "sections.banner",
         "sections.card",
         "sections.grid",
         "sections.hero-image",
-        "sections.logo-banner",
         "sections.slide",
         "component-data.pricing-relation"
       ],

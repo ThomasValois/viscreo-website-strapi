@@ -6,6 +6,9 @@
   },
   "options": {},
   "attributes": {
+    "customID": {
+      "type": "string"
+    },
     "title": {
       "type": "component",
       "repeatable": false,
