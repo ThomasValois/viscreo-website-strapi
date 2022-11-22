@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_sections_banners",
+  "info": {
+    "displayName": "Banner",
+    "icon": "grip-horizontal"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "content.title-value-s",
+      "required": true
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "content.link"
+    },
+    "content": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content.media-title",
+      "required": true,
+      "max": 6,
+      "min": 3
+    }
+  }
+}

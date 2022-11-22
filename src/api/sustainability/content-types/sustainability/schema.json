@@ -4,7 +4,8 @@
   "info": {
     "singularName": "sustainability",
     "pluralName": "sustainabilities",
-    "displayName": "Sustainability"
+    "displayName": "Sustainability",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -18,7 +19,9 @@
         "sections.grid",
         "sections.hero-image",
         "sections.logo-banner",
-        "sections.slide"
+        "sections.slide",
+        "pages.sustainability-banner",
+        "sections.banner"
       ],
       "required": true,
       "max": 10,
