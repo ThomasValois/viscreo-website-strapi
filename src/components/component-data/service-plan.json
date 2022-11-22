@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_component_data_service_plans",
+  "info": {
+    "displayName": "Service Plan",
+    "icon": "money-bill-wave"
+  },
+  "options": {},
+  "attributes": {
+    "plan": {
+      "type": "enumeration",
+      "enum": [
+        "Starter",
+        "Essential",
+        "Enterprise"
+      ],
+      "required": true
+    },
+    "price": {
+      "type": "biginteger",
+      "required": true
+    },
+    "fixed": {
+      "type": "boolean"
+    },
+    "monthly": {
+      "type": "boolean"
+    },
+    "popular": {
+      "type": "boolean"
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content.simple-item",
+      "required": true,
+      "max": 4,
+      "min": 1
+    }
+  }
+}

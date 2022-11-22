@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_component_data_pricing_relations",
+  "info": {
+    "displayName": "Pricing Relation",
+    "icon": "coins",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "services": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::service.service"
+    },
+    "customID": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "pricings",
+  "info": {
+    "singularName": "pricing",
+    "pluralName": "pricings",
+    "displayName": "Pricing"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "body": {
+      "type": "dynamiczone",
+      "components": [
+        "sections.banner",
+        "sections.card",
+        "sections.grid",
+        "sections.hero-image",
+        "sections.logo-banner",
+        "sections.slide",
+        "component-data.pricing-relation"
+      ],
+      "required": true,
+      "min": 1,
+      "max": 10
+    }
+  }
+}
