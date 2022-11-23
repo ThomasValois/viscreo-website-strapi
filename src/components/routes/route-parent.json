@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_routes_route_parents",
+  "info": {
+    "displayName": "Route - Parent",
+    "icon": "route",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "path": {
+      "type": "string",
+      "required": true
+    },
+    "children": {
+      "type": "component",
+      "repeatable": true,
+      "component": "routes.route-child"
+    }
+  }
+}

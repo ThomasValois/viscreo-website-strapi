@@ -22,11 +22,21 @@
         "sections.card",
         "sections.grid",
         "sections.hero-image",
-        "sections.slide"
+        "sections.slide",
+        "sections.banner"
       ],
       "required": true,
       "min": 2,
       "max": 10
+    },
+    "faq_category": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::faq-category.faq-category"
+    },
+    "title": {
+      "type": "string",
+      "required": true
     }
   }
 }

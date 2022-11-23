@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_routes_route_children",
+  "info": {
+    "displayName": "Route - Child",
+    "icon": "route"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "path": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
