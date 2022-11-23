@@ -4,7 +4,8 @@
   "info": {
     "singularName": "privacy",
     "pluralName": "privacies",
-    "displayName": "Privacy"
+    "displayName": "Privacy",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -20,6 +21,15 @@
       "type": "component",
       "repeatable": false,
       "component": "content.simple-body"
+    },
+    "cta": {
+      "type": "dynamiczone",
+      "components": [
+        "call-to-action.download",
+        "call-to-action.question"
+      ],
+      "min": 1,
+      "max": 1
     }
   }
 }

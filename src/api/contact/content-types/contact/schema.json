@@ -48,16 +48,16 @@
       "type": "string",
       "required": true
     },
-    "cta": {
-      "type": "component",
-      "repeatable": false,
-      "component": "content.title-value-s",
-      "required": true
-    },
     "landing": {
       "type": "component",
       "repeatable": false,
       "component": "content.tile-value-l",
+      "required": true
+    },
+    "cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "call-to-action.face",
       "required": true
     }
   }

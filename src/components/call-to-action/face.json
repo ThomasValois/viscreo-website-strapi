@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_call_to_action_faces",
+  "info": {
+    "displayName": "Face",
+    "icon": "smile-beam"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "media": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

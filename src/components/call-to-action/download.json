@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_call_to_action_downloads",
+  "info": {
+    "displayName": "Download",
+    "icon": "download",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "media": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "button": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

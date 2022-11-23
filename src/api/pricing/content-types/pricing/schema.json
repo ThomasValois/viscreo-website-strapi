@@ -4,7 +4,8 @@
   "info": {
     "singularName": "pricing",
     "pluralName": "pricings",
-    "displayName": "Pricing"
+    "displayName": "Pricing",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -23,6 +24,16 @@
       "required": true,
       "min": 1,
       "max": 10
+    },
+    "cta": {
+      "type": "dynamiczone",
+      "components": [
+        "call-to-action.download",
+        "call-to-action.question"
+      ],
+      "required": false,
+      "min": 1,
+      "max": 1
     }
   }
 }
