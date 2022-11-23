@@ -37,6 +37,16 @@
     "title": {
       "type": "string",
       "required": true
+    },
+    "cta": {
+      "type": "dynamiczone",
+      "components": [
+        "call-to-action.download",
+        "call-to-action.question"
+      ],
+      "max": 1,
+      "min": 1,
+      "required": false
     }
   }
 }

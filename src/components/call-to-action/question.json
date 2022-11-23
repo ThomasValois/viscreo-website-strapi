@@ -2,12 +2,13 @@
   "collectionName": "components_call_to_action_questions",
   "info": {
     "displayName": "Question",
-    "icon": "question"
+    "icon": "question",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "title": {
-      "type": "string",
+      "type": "text",
       "required": true
     },
     "description": {

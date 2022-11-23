@@ -23,6 +23,15 @@
       "required": true,
       "max": 10,
       "min": 3
+    },
+    "cta": {
+      "type": "dynamiczone",
+      "components": [
+        "call-to-action.download",
+        "call-to-action.question"
+      ],
+      "max": 1,
+      "min": 1
     }
   }
 }
