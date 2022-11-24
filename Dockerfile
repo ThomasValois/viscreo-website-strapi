@@ -1,11 +1,9 @@
-FROM node:16
-ENV NODE_ENV=production
-WORKDIR /opt/
-COPY ./package.json ./yarn.lock ./
-ENV PATH /opt/node_modules/.bin:$PATH
-RUN  yarn install
-WORKDIR /opt/app
+FROM strapi/base
+WORKDIR /app
+COPY ./package.json ./
+RUN yarn install
 COPY . .
+ENV NODE_ENV production
 RUN yarn build
 EXPOSE 1337
 CMD ["yarn", "start"]
