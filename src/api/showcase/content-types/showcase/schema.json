@@ -67,6 +67,11 @@
       "required": true,
       "max": 10,
       "min": 1
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title",
+      "required": true
     }
   }
 }
