@@ -1,0 +1,72 @@
+{
+  "kind": "collectionType",
+  "collectionName": "showcases",
+  "info": {
+    "singularName": "showcase",
+    "pluralName": "showcases",
+    "displayName": "Showcase",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "media": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "client": {
+      "type": "string",
+      "required": true
+    },
+    "website": {
+      "type": "string",
+      "required": true
+    },
+    "plandev": {
+      "type": "enumeration",
+      "enum": [
+        "Starter",
+        "Essential",
+        "Enterprise"
+      ]
+    },
+    "planmaintenance": {
+      "type": "enumeration",
+      "enum": [
+        "Starter",
+        "Essential",
+        "Enterprise"
+      ]
+    },
+    "tag": {
+      "type": "string",
+      "required": true
+    },
+    "body": {
+      "type": "dynamiczone",
+      "components": [
+        "sections.banner",
+        "sections.card",
+        "sections.grid",
+        "sections.hero-image",
+        "sections.slide",
+        "content.simple-body"
+      ],
+      "required": true,
+      "max": 10,
+      "min": 1
+    }
+  }
+}
