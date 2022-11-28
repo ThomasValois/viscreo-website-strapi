@@ -73,10 +73,10 @@
       "targetField": "title",
       "required": true
     },
-    "metasocial": {
+    "seo": {
       "type": "component",
       "repeatable": false,
-      "component": "shared.meta-social",
+      "component": "shared.seo",
       "required": true
     }
   }
