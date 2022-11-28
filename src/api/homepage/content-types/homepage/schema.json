@@ -40,6 +40,12 @@
       "min": 1,
       "required": false,
       "max": 1
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo",
+      "required": true
     }
   }
 }
