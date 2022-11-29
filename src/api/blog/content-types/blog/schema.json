@@ -80,6 +80,9 @@
       "repeatable": false,
       "component": "shared.seo",
       "required": true
+    },
+    "medium": {
+      "type": "string"
     }
   }
 }
