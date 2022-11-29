@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "faq_pages",
+  "info": {
+    "singularName": "faq-page",
+    "pluralName": "faq-pages",
+    "displayName": "FAQ Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "cta": {
+      "type": "dynamiczone",
+      "components": [
+        "call-to-action.download",
+        "call-to-action.question"
+      ],
+      "required": true,
+      "min": 1,
+      "max": 1
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    }
+  }
+}
