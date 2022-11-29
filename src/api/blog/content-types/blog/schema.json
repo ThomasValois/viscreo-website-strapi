@@ -83,6 +83,9 @@
     },
     "medium": {
       "type": "string"
+    },
+    "learn": {
+      "type": "boolean"
     }
   }
 }
