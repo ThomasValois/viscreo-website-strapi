@@ -78,6 +78,10 @@
       "repeatable": false,
       "component": "shared.seo",
       "required": true
+    },
+    "readingtime": {
+      "type": "integer",
+      "required": true
     }
   }
 }

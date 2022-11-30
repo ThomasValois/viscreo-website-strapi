@@ -80,6 +80,10 @@
     },
     "learn": {
       "type": "boolean"
+    },
+    "readingtime": {
+      "type": "integer",
+      "required": true
     }
   }
 }
