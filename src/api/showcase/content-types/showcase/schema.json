@@ -79,14 +79,14 @@
       "targetField": "title",
       "required": true
     },
+    "readingtime": {
+      "type": "integer",
+      "required": true
+    },
     "seo": {
       "type": "component",
       "repeatable": false,
-      "component": "shared.seo",
-      "required": true
-    },
-    "readingtime": {
-      "type": "integer",
+      "component": "content.seo",
       "required": true
     }
   }

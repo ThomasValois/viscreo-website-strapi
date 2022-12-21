@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_content_seos",
+  "info": {
+    "displayName": "SEO",
+    "icon": "search-location"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "maxLength": 60,
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true,
+      "maxLength": 160
+    },
+    "canonical": {
+      "type": "string",
+      "default": "https://viscreo.co.uk/",
+      "required": true,
+      "regex": "(https?:\\/\\/(.+?\\.)?viscreo\\.co.uk(\\/[A-Za-z0-9\\-\\._~:\\/\\?#\\[\\]@!$&'\\(\\)\\*\\+,;\\=]*)?)"
+    },
+    "thumbnail": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": false
+    }
+  }
+}

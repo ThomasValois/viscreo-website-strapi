@@ -71,12 +71,6 @@
       "targetField": "title",
       "required": true
     },
-    "seo": {
-      "type": "component",
-      "repeatable": false,
-      "component": "shared.seo",
-      "required": true
-    },
     "medium": {
       "type": "string",
       "regex": "(https?:\\\\/\\\\/(.+?\\\\.)?medium\\\\.com(\\\\/[A-Za-z0-9\\\\-\\\\._~:\\\\/\\\\?#\\\\[\\\\]@!$&'\\\\(\\\\)\\\\*\\\\+,;\\\\=]*)?)"
@@ -86,6 +80,12 @@
     },
     "readingtime": {
       "type": "integer",
+      "required": true
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "content.seo",
       "required": true
     }
   }
