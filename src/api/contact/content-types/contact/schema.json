@@ -30,23 +30,28 @@
     },
     "linkedin": {
       "type": "string",
-      "required": true
+      "required": true,
+      "regex": "(https?:\\/\\/(.+?\\.)?linkedin\\.com(\\/[A-Za-z0-9\\-\\._~:\\/\\?#\\[\\]@!$&'\\(\\)\\*\\+,;\\=]*)?)"
     },
     "linkedinPersonal": {
       "type": "string",
-      "required": true
+      "required": true,
+      "regex": "(https?:\\/\\/(.+?\\.)?linkedin\\.com(\\/[A-Za-z0-9\\-\\._~:\\/\\?#\\[\\]@!$&'\\(\\)\\*\\+,;\\=]*)?)"
     },
     "medium": {
       "type": "string",
-      "required": true
+      "required": true,
+      "regex": "(https?:\\/\\/(.+?\\.)?medium\\.com(\\/[A-Za-z0-9\\-\\._~:\\/\\?#\\[\\]@!$&'\\(\\)\\*\\+,;\\=]*)?)"
     },
     "twitter": {
       "type": "string",
-      "required": true
+      "required": true,
+      "regex": "(https?:\\/\\/(.+?\\.)?twitter\\.com(\\/[A-Za-z0-9\\-\\._~:\\/\\?#\\[\\]@!$&'\\(\\)\\*\\+,;\\=]*)?)"
     },
     "instagram": {
       "type": "string",
-      "required": true
+      "required": true,
+      "regex": "(https?:\\/\\/(.+?\\.)?instagram\\.com(\\/[A-Za-z0-9\\-\\._~:\\/\\?#\\[\\]@!$&'\\(\\)\\*\\+,;\\=]*)?)"
     },
     "landing": {
       "type": "component",

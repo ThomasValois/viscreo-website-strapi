@@ -13,10 +13,14 @@
   "pluginOptions": {},
   "attributes": {
     "title": {
-      "type": "string"
+      "type": "string",
+      "required": true,
+      "maxLength": 55
     },
     "description": {
-      "type": "text"
+      "type": "text",
+      "required": true,
+      "maxLength": 150
     },
     "media": {
       "type": "media",
@@ -28,7 +32,8 @@
     },
     "client": {
       "type": "string",
-      "required": true
+      "required": true,
+      "maxLength": 55
     },
     "website": {
       "type": "string",
@@ -52,7 +57,8 @@
     },
     "tag": {
       "type": "string",
-      "required": true
+      "required": true,
+      "maxLength": 20
     },
     "body": {
       "type": "dynamiczone",
