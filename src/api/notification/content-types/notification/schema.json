@@ -12,35 +12,34 @@
   },
   "pluginOptions": {},
   "attributes": {
+    "enabled": {
+      "type": "boolean",
+      "required": true
+    },
+    "persistent": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "title": {
+      "type": "string"
+    },
     "type": {
       "type": "enumeration",
       "enum": [
-        "Accent",
-        "Dark",
-        "Grey",
-        "Background"
-      ],
-      "default": "Accent",
-      "required": true
+        "accent",
+        "dark",
+        "grey",
+        "background"
+      ]
     },
-    "content": {
-      "type": "component",
-      "repeatable": false,
-      "component": "content.title-value-s",
-      "required": true
+    "description": {
+      "type": "text"
     },
     "button": {
       "type": "component",
       "repeatable": false,
       "component": "content.link"
-    },
-    "dismissible": {
-      "type": "boolean",
-      "default": true
-    },
-    "enabled": {
-      "type": "boolean",
-      "required": true
     }
   }
 }

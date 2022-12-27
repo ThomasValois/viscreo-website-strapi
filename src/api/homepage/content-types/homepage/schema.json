@@ -25,7 +25,8 @@
         "sections.grid",
         "sections.hero-image",
         "sections.slide",
-        "sections.banner"
+        "sections.banner",
+        "pages.home-news"
       ],
       "required": true,
       "max": 10,

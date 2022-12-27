@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_pages_home_news",
+  "info": {
+    "displayName": "Home News",
+    "icon": "newspaper"
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "content.title-value-s",
+      "required": true
+    },
+    "blogs": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::blog.blog"
+    }
+  }
+}
