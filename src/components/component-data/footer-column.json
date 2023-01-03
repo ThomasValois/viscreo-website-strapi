@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_routes_footer_columns",
+  "info": {
+    "displayName": "Footer Column",
+    "icon": "align-center",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "content": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content.link",
+      "required": true,
+      "max": 6,
+      "min": 1
+    }
+  }
+}

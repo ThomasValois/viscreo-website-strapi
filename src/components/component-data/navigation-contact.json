@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_component_data_navigation_contacts",
+  "info": {
+    "displayName": "Navigation Contact",
+    "icon": "phone"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "titleSmall": {
+      "type": "string",
+      "required": true
+    },
+    "titleAlt": {
+      "type": "string",
+      "required": true
+    },
+    "titleAltSmall": {
+      "type": "string",
+      "required": true
+    },
+    "url": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

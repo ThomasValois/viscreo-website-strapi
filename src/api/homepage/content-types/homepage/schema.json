@@ -12,12 +12,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "landing": {
-      "type": "component",
-      "repeatable": false,
-      "component": "content.tile-value-l",
-      "required": true
-    },
     "body": {
       "type": "dynamiczone",
       "components": [
@@ -47,6 +41,11 @@
       "repeatable": false,
       "component": "content.seo",
       "required": true
+    },
+    "landing": {
+      "type": "component",
+      "repeatable": false,
+      "component": "pages.homepage-landing"
     }
   }
 }

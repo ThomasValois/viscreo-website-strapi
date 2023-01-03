@@ -30,4 +30,7 @@ module.exports = ({ env }) => ({
       },
     },
   },
+  navigation: {
+    enabled: true
+  }
 });
