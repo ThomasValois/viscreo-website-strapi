@@ -14,7 +14,10 @@
     "content": {
       "type": "component",
       "repeatable": true,
-      "component": "routes.route-child"
+      "required": true,
+      "max": 8,
+      "min": 1,
+      "component": "routes.route-simple"
     }
   }
 }

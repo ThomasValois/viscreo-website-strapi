@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_routes_route_simples",
+  "info": {
+    "displayName": "Route - Simple",
+    "icon": "map-signs"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "path": {
+      "type": "string",
+      "required": true,
+      "default": "/"
+    }
+  }
+}
