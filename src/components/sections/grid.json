@@ -14,9 +14,6 @@
     "customID": {
       "type": "string"
     },
-    "reverse": {
-      "type": "boolean"
-    },
     "media": {
       "type": "media",
       "multiple": false,
@@ -32,6 +29,9 @@
       "required": true,
       "max": 4,
       "min": 2
+    },
+    "imageLeft": {
+      "type": "boolean"
     }
   }
 }
