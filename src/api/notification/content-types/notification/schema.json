@@ -8,14 +8,10 @@
     "description": ""
   },
   "options": {
-    "draftAndPublish": false
+    "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "enabled": {
-      "type": "boolean",
-      "required": true
-    },
     "persistent": {
       "type": "boolean",
       "default": false,
@@ -23,15 +19,6 @@
     },
     "title": {
       "type": "string"
-    },
-    "type": {
-      "type": "enumeration",
-      "enum": [
-        "accent",
-        "dark",
-        "grey",
-        "background"
-      ]
     },
     "description": {
       "type": "text",
