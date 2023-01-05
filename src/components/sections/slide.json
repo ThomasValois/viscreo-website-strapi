@@ -14,7 +14,7 @@
     "customID": {
       "type": "string"
     },
-    "content": {
+    "slideContent": {
       "type": "component",
       "repeatable": true,
       "component": "component-data.slide-item",

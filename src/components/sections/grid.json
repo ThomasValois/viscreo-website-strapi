@@ -22,7 +22,7 @@
         "images"
       ]
     },
-    "content": {
+    "gridContent": {
       "type": "component",
       "repeatable": true,
       "component": "component-data.grid-item",
