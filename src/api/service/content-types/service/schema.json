@@ -4,7 +4,7 @@
   "info": {
     "singularName": "service",
     "pluralName": "services",
-    "displayName": "Service",
+    "displayName": "Pricing Plans",
     "description": ""
   },
   "options": {
@@ -14,7 +14,7 @@
   "attributes": {
     "slug": {
       "type": "uid",
-      "required": true
+      "required": false
     },
     "title": {
       "type": "component",
@@ -33,6 +33,10 @@
     },
     "order": {
       "type": "integer",
+      "required": true
+    },
+    "label": {
+      "type": "string",
       "required": true
     }
   }

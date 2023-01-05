@@ -20,7 +20,8 @@
         "sections.hero-image",
         "sections.slide",
         "sections.banner",
-        "pages.home-news"
+        "pages.home-news",
+        "sections.news"
       ],
       "required": true,
       "max": 10,

@@ -1,30 +1,27 @@
 {
   "kind": "singleType",
-  "collectionName": "about_uses",
+  "collectionName": "our_services",
   "info": {
-    "singularName": "about-us",
-    "pluralName": "about-uses",
-    "displayName": "About Us",
+    "singularName": "our-service",
+    "pluralName": "our-services",
+    "displayName": "Our Service",
     "description": ""
   },
   "options": {
-    "draftAndPublish": false
+    "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
     "body": {
       "type": "dynamiczone",
       "components": [
+        "sections.banner",
         "sections.card",
         "sections.grid",
         "sections.hero-image",
         "sections.slide",
-        "sections.banner",
         "sections.news"
-      ],
-      "required": true,
-      "max": 10,
-      "min": 3
+      ]
     },
     "cta": {
       "type": "dynamiczone",
@@ -32,8 +29,8 @@
         "call-to-action.download",
         "call-to-action.question"
       ],
-      "max": 1,
-      "min": 1
+      "min": 1,
+      "max": 1
     },
     "seo": {
       "type": "component",

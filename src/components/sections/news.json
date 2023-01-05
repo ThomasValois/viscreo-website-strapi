@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_sections_news",
+  "info": {
+    "displayName": "News",
+    "icon": "newspaper"
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "component",
+      "repeatable": false,
+      "component": "content.tile-value-l",
+      "required": true
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "content.link"
+    }
+  }
+}

@@ -20,7 +20,8 @@
         "sections.hero-image",
         "sections.slide",
         "pages.sustainability-banner",
-        "sections.banner"
+        "sections.banner",
+        "sections.news"
       ],
       "required": true,
       "max": 10,
