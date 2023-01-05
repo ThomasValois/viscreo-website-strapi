@@ -2,7 +2,8 @@
   "collectionName": "components_component_data_service_plans",
   "info": {
     "displayName": "Service Plan",
-    "icon": "money-bill-wave"
+    "icon": "money-bill-wave",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -33,7 +34,7 @@
       "repeatable": true,
       "component": "content.simple-item",
       "required": true,
-      "max": 4,
+      "max": 3,
       "min": 1
     }
   }

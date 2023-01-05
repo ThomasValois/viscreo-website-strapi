@@ -38,6 +38,12 @@
     "label": {
       "type": "string",
       "required": true
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "content.link",
+      "required": true
     }
   }
 }
