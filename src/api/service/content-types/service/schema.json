@@ -12,10 +12,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "slug": {
-      "type": "uid",
-      "required": true
-    },
     "title": {
       "type": "component",
       "repeatable": false,
@@ -43,6 +39,10 @@
       "type": "component",
       "repeatable": false,
       "component": "content.link",
+      "required": true
+    },
+    "slug": {
+      "type": "string",
       "required": true
     }
   }
