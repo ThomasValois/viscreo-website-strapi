@@ -14,7 +14,7 @@
   "attributes": {
     "slug": {
       "type": "uid",
-      "required": false
+      "required": true
     },
     "title": {
       "type": "component",
