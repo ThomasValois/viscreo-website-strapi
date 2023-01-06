@@ -2,11 +2,12 @@
   "collectionName": "components_sections_news",
   "info": {
     "displayName": "News",
-    "icon": "newspaper"
+    "icon": "newspaper",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "content": {
+    "newsContent": {
       "type": "component",
       "repeatable": false,
       "component": "content.tile-value-l",
